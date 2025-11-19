@@ -489,6 +489,8 @@ int WINAPI WinMain (HINSTANCE hInstance,
        MessageBox(NULL, "CreateWindowEx Failed!", "Error!", 0);
      }
 
+    //resize the window to the correct size
+    ResizeWindow(hWnd, WindowWidth, WindowHeight);
      
     //make the window visible
     ShowWindow (hWnd, iCmdShow);
