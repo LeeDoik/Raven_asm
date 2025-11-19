@@ -73,27 +73,56 @@ Creating a shotgun
 Creating a shotgun
 Creating a rocket_launcher
 maps/Raven_DM1.map loaded okay
-BOT 402 IS STUCK!!
-BOT 403 IS STUCK!!
+Player is exorcised from bot 401
+Player is exorcised from bot 402
+Player is exorcised from bot 403
 BOT 401 IS STUCK!!
+Player is exorcised from bot 401
+Player is exorcised from bot 402
+Player is exorcised from bot 401
+Player is exorcised from bot 403
+Player is exorcised from bot 402
+BOT 403 IS STUCK!!
 deleting raven bot (id = 403)
 deleting raven bot (id = 402)
 deleting raven bot (id = 401)
-deleting raven bot (id = 691)
-deleting raven bot (id = 674)
-deleting raven bot (id = 665)
-deleting raven bot (id = 664)
-Player is exorcised from bot 724
-Player is exorcised from bot 663
-BOT 724 IS STUCK!!
-Player Possesses bot 724
-Player is exorcised from bot 724
-Player is exorcised from bot 663
-deleting raven bot (id = 759)
-deleting raven bot (id = 724)
-deleting raven bot (id = 663)
-deleting raven bot (id = 999)
-deleting raven bot (id = 998)
-Player is exorcised from bot 1018
-deleting raven bot (id = 1018)
-deleting raven bot (id = 1019)
+deleting raven bot (id = 852)
+deleting raven bot (id = 851)
+deleting raven bot (id = 854)
+deleting raven bot (id = 853)
+deleting raven bot (id = 860)
+deleting raven bot (id = 859)
+deleting raven bot (id = 862)
+deleting raven bot (id = 861)
+deleting raven bot (id = 864)
+deleting raven bot (id = 863)
+deleting raven bot (id = 874)
+deleting raven bot (id = 873)
+deleting raven bot (id = 898)
+deleting raven bot (id = 897)
+deleting raven bot (id = 900)
+deleting raven bot (id = 899)
+deleting raven bot (id = 902)
+deleting raven bot (id = 901)
+deleting raven bot (id = 904)
+deleting raven bot (id = 903)
+deleting raven bot (id = 906)
+deleting raven bot (id = 905)
+deleting raven bot (id = 908)
+deleting raven bot (id = 907)
+deleting raven bot (id = 910)
+deleting raven bot (id = 909)
+deleting raven bot (id = 912)
+deleting raven bot (id = 911)
+deleting raven bot (id = 914)
+deleting raven bot (id = 913)
+Player is exorcised from bot 916
+deleting raven bot (id = 982)
+Player is exorcised from bot 915
+BOT 915 IS STUCK!!
+BOT 916 IS STUCK!!
+Player is exorcised from bot 947
+Player is exorcised from bot 915
+deleting raven bot (id = 915)
+deleting raven bot (id = 916)
+deleting raven bot (id = 947)

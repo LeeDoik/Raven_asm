@@ -39,7 +39,7 @@ public:
   //for the RL the rating will be 1/3 + 1/6 + 0 = 0.5
   static double TotalWeaponStrength(Raven_Bot* pBot);
 
-  // 적이 없고 무기를 하나라도 획득할 시 1.0을 반환
+  // 적이 없고 무기를 하나라도 획득할 시 1.0 반환
   static double AmbushPotential(Raven_Bot* pBot);
 };
 

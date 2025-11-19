@@ -99,28 +99,25 @@ double Raven_Feature::TotalWeaponStrength(Raven_Bot* pBot)
 }
 
 //--------------------------- AmbushPotential ---------------------------------
-// 매복하기에 얼마나 좋은 상황인지 평가합니다.
-// 1. 현재 공격 대상(적)이 없어야 함.
-// 2. 무기가 어느 정도 있어야 함.
 //-----------------------------------------------------------------------------
 double Raven_Feature::AmbushPotential(Raven_Bot* pBot)
 {
-    // 1. 이미 적이 시야에 있다면 매복할 필요 없음 (0점)
+    // 이미 적이 시야에 있다면 매복할 필요 없음
     if (pBot->GetTargetSys()->isTargetPresent())
     {
         return 0.0;
     }
 
-    // 2. 무기 상태 점수 가져오기 (기존 Feature 활용)
+    // 무기 상태 점수 가져오기
     double WeaponScore = TotalWeaponStrength(pBot);
 
-    // 3. 무기가 하나라도 있다면(점수 > 0.1) 매복하기 아주 좋은 상태(1.0)로 판단
+    // 무기가 하나라도 있다면 1.0
     if (WeaponScore > 0.1)
     {
         return 1.0;
     }
 
-    // 무기가 없다면 매복 불가
+    // 무기 없으면 매복X
     return 0.0;
 }
 

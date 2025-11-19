@@ -31,7 +31,6 @@ public:
     int  Process();
     void Terminate();
 
-    // 메시지 처리 (필요 시 구현, 여기서는 기본적으로 false 반환 혹은 상위 처리)
     bool HandleMessage(const Telegram& msg) { return ForwardMessageToFrontMostSubgoal(msg); }
 };
 

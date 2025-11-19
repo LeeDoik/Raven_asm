@@ -175,7 +175,6 @@ void Goal_Think::AddGoal_AttackTarget()
 
 void Goal_Think::AddGoal_Ambush()
 {
-    // 현재 목표가 이미 매복이 아니라면 하위 목표를 지우고 매복 목표 추가
     if (notPresent(goal_ambush))
     {
         RemoveAllSubgoals();

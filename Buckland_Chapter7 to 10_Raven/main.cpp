@@ -1,3 +1,4 @@
+// 게임공학과 2021184025 이도익
 #pragma warning (disable:4786)
 #include <windows.h>
 #include <time.h>
